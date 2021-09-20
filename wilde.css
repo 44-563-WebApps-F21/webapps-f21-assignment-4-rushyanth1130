@@ -23,6 +23,8 @@
     color: blue;
     font-family:'Times New Roman', Times, serif ;
     font-weight: 600;
+    transition: transform .2s;
+    text-align: center;
 }
 
 .CECILY
@@ -30,5 +32,53 @@
     color:crimson;
     font-family:cursive ;
     font-weight: 600;
+    transition: transform .2s;
+    text-align: center;
+}
+
+.MISS_PRISM:hover
+{
+    transform: scale(1.9);
+    background-color: red;
+}
+
+.CECILY:hover
+{
+    transform: scale(1.9);
+    background-color: cornflowerblue;
+}
+
+table
+{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    align-items: center;
+    margin: auto;
+}
+
+th
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+tr:nth-child(even)
+{
+    background-color: #f2f2f2;
+}
+
+td,th 
+{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+tr:hover 
+{
+    background-color: yellowgreen;
 }
 
