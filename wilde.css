@@ -114,26 +114,29 @@ tr:hover
 
 ul.navbar-horizontal 
 {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position:relative;
+    bottom: 0;
     width: 100%;
-    align-items: center;
-}
-ul.navbar-horizontal li 
-{
-    float:left; 
-    /* line up horizontally */
-    color:#000;
-    background-color:purple
 }
 ul.navbar-horizontal a 
 {
-    display:block;
-    padding:8px;
+    float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 ul.navbar-horizontal a:hover 
 {  
     background-color: #555;
     color:white;
+}
+ul.navbar-horizontal a.active
+{
+    background-color: #04AA6D;
+    color: white;
 }
