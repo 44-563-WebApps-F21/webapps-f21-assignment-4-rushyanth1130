@@ -40,6 +40,21 @@
     text-align: center;
 }
 
+.CHASUBLE
+{
+    color:blueviolet;
+    font-family:fantasy ;
+    font-weight: 600;
+    transition: transform .2s;
+    text-align: center;
+}
+
+.CHASUBLE:hover
+{
+    transform: scale(1.9);
+    background-color: white;   
+}
+
 .MISS_PRISM:hover
 {
     transform: scale(1.9);
