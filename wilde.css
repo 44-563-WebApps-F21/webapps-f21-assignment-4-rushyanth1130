@@ -20,6 +20,7 @@
 {
     background-color: beige;
     color: chartreuse;
+    box-shadow: 0 0 20px rgba(33,33,33,.2);
 }
 
 .MISS_PRISM
@@ -52,19 +53,22 @@
 .CHASUBLE:hover
 {
     transform: scale(1.9);
-    background-color: white;   
+    background-color: white; 
+    box-shadow: 0 0 20px rgba(33,33,33,.2);  
 }
 
 .MISS_PRISM:hover
 {
     transform: scale(1.9);
     background-color: red;
+    box-shadow: 0 0 20px rgba(33,33,33,.2);
 }
 
 .CECILY:hover
 {
     transform: scale(1.9);
     background-color: cornflowerblue;
+    box-shadow: 0 0 20px rgba(33,33,33,.2);
 }
 
 table
@@ -104,6 +108,7 @@ tr:hover
 {
     background-color: yellowgreen;
     transform: scale(1.02);
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
 
 }
 
