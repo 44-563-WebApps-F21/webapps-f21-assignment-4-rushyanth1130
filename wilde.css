@@ -140,3 +140,10 @@ ul.navbar-horizontal a.active
     background-color: #04AA6D;
     color: white;
 }
+
+img
+{
+    display: block;
+    width: 20%;
+    border-radius: 8px;
+}
